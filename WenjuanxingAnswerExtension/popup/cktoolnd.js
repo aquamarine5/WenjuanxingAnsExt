@@ -1,4 +1,9 @@
+// Source: https://image.wjx.cn/joinnew/js/cktoolnd.js?v=5
+
 var _0x2464 = ['bm5mYXY=', 'ZWhCeVU=', 'cHVzaA==', 'R05NbEI=', 'Y2hhckNvZGVBdA==', 'SUxDUmk=', 'SmFUZUU=', 'Z2V0VGltZXpvbmVPZmZzZXQ=', 'SldRV1Y=', 'WlRBZ0o=', 'TlFiS1Y=', 'Z2V0VGltZQ==', 'QmtkSW8=', 'M3wyfDB8NHwx', 'TVhDa3I=', 'dGVzdA==', 'bmF2aWdhdG9y', 'dXNlckFnZW50', 'JGNkY19hc2RqZmxhc3V0b3BmaHZjWkxtY2ZsXw==', 'd2ViZHJpdmVy', 'Y2FsbFBoYW50b20=', 'X3BoYW50b20=', 'MXw2fDE0fDd8NXwwfDJ8MTJ8OXwxMXwxMHwxM3w4fDN8NA==', 'bW91c2Vtb3Zl', 'I3N0YXJ0dGltZQ==', 'a2dFU09MSlViQjJmQ3Rlb1FkWW1YdkY4ajlJWnMzSzBpNnc3NVZjRG5HMTRXQXlheE5xUHVSbHBUSE1yaHo=', 'ODkxMjM=', 'eENCZW8=', 'aGRtMTExMw==', 'bUVCTEg=', 'cGFnZVg=', 'RElvQXg=', 'SnRrUkI=', 'bHVyc1Y=', 'ZFVZUno=', 'Sk9xRkU=', 'cmV2ZXJzZQ==', 'VUtMdG0=', 'dW5iaW5k', 'ZWN0eEc=', 'UVVsb0k=', 'cmVwbGFjZQ==', 'WG1zSWY=', 'TklPSUI=', 'dmFs', 'aW5pdHN0aW1l', 'Ym1rQUw=', 'T21hck4=', 'cmZvbkw=', 'YlNxRHg=', 'UWt1bHI=', 'c0tBYkg=', 'SXFhVGQ=', 'dHFWUUU=', 'VU9QanQ=', 'UVdYTlM=', 'UGpDbEY=', 'YmluZA==', 'RW92VFg=', 'NHw5fDV8MnwwfDN8OHw3fDZ8MQ==', 'dHp1Z2U=', 'c3BsaXQ=', 'UUpTb3Y=', 'Y0tERkI=', 'Rkpyb1c=', 'TG15SkQ=', 'bldzTEM=', 'ZWhPalk=', 'bVJ3d28=', 'a05USlg=', 'blZjR0o=', 'bVptR2w=', 'c3Vic3Ry', 'bUZSQXY=', 'a0NYWkY=', 'TlpGTm4=', 'UUt3a2I=', 'UWpRRVU=', 'NXw0fDN8MXwyfDA=', 'MHw0fDF8M3wy', 'V3Rud3I=', 'WGp0dmc=', 'bGVuZ3Ro', 'T2dNVWk=', 'd2Zqblk=', 'cWttY2I=', 'c0NUTkg=', 'a0tqTGw=', 'am9pbg==', 'ZGtTVGE=', 'N3wxfDl8NnwyfDV8M3w4fDR8MA=='];
+
+
+
 (function(_0x1dcd5e, _0x2feacf) {
     var _0x2cb2cd = function(_0x1c8c7a) {
         while (--_0x1c8c7a) {
@@ -342,7 +347,7 @@ function abcdx() {
         break;
     }
 }
-$(function() {
+function load(){
     var _0x4d9873 = {
         'mEBLH': function(_0x28cc59, _0x50220a) {
             return _0x28cc59 > _0x50220a;
@@ -404,6 +409,7 @@ $(function() {
             return _0x2615f0(_0x5f3407);
         }
     };
+    document._0x4d9873=_0x4d9873
     _0x4d9873[_0x1681('0x3c')](setTimeout, function() {
         window[_0x1681('0x3d')] = !![];
     }, 0x3e8);
@@ -414,13 +420,16 @@ $(function() {
         if (_0x4d9873[_0x1681('0x3e')](_0x5326c0[_0x1681('0x3f')], 0x0) && _0x4d9873[_0x1681('0x40')](abcdx) && window[_0x1681('0x3d')]) {
             var _0x489448 = _0x4d9873[_0x1681('0x41')][_0x1681('0x3')]('|')
               , _0x56a5e4 = 0x0;
+            var buffer,jqParam
             while (!![]) {
-                switch (_0x489448[_0x56a5e4++]) {
+                buffer=_0x489448[_0x56a5e4++]
+                console.log(buffer)
+                switch (buffer) {
                 case '0':
                     var _0x12e25a = _0x4d9873[_0x1681('0x42')](_0x17071c, '');
                     continue;
                 case '1':
-                    var _0x4b9009 = rndnum[_0x1681('0x3')]('.')[0x0];
+                    var _0x4b9009 = document.rndnum[_0x1681('0x3')]('.')[0x0];
                     continue;
                 case '2':
                     if (_0x4d9873[_0x1681('0x43')](_0x4d9873[_0x1681('0x44')](_0x17071c, 0xa), 0x0))
@@ -433,13 +442,20 @@ $(function() {
                     _0x4d9873[_0x1681('0x46')]($, document)[_0x1681('0x47')](_0x4d9873[_0x1681('0x48')], _0x156205);
                     continue;
                 case '5':
-                    var _0x17071c = _0x4d9873[_0x1681('0x49')](abcdu, new Date(_0x2f4e03[_0x1681('0x4a')](new RegExp('-','gm'), '/')));
+                    console.log(abcdu)
+                    console.log(_0x1681('0x49'))
+                    console.log(_0x2f4e03)
+                    var _0x17071c = _0x4d9873[_0x1681('0x49')](abcdu, new Date(decodeURIComponent(_0x2f4e03[_0x1681('0x4a')](new RegExp('-','gm'), '/'))));
                     continue;
                 case '6':
                     var _0x37348b = _0x4d9873[_0x1681('0x49')](abcd1, _0x4d9873[_0x1681('0x49')](parseInt, _0x4b9009));
                     continue;
                 case '7':
-                    var _0x2f4e03 = _0x4d9873[_0x1681('0x4b')]($, _0x4d9873[_0x1681('0x4c')])[_0x1681('0x4d')]() || window[_0x1681('0x4e')];
+                    var d=new Date()
+                    d.setHours(d.getHours()+8)
+                    document.starttime=encodeURIComponent(d.toISOString().replace("T"," ").replace("Z","").replace(/-/g,"/").replace(new RegExp("[.][0-9]+"),""))
+                    // var _0x2f4e03 = _0x4d9873[_0x1681('0x4b')]($, _0x4d9873[_0x1681('0x4c')])[_0x1681('0x4d')]() || window[_0x1681('0x4e')];
+                    var _0x2f4e03 = document.starttime || window[_0x1681('0x4e')];
                     continue;
                 case '8':
                     var _0x16feb7 = _0x4d9873[_0x1681('0x4f')](abcd5, jqParam);
@@ -448,7 +464,7 @@ $(function() {
                     var _0x307a46 = _0x4d9873[_0x1681('0x50')](_0x4d9873[_0x1681('0x50')](_0x24bc24, ''), _0x4d9873[_0x1681('0x51')](_0x37348b, ''))[_0x1681('0x3')]('');
                     continue;
                 case '10':
-                    var _0xc23193 = _0x4d9873[_0x1681('0x51')](_0x4d9873[_0x1681('0x51')](_0x24bc24, _0x37348b), _0x4d9873[_0x1681('0x52')](parseInt, activityId));
+                    var _0xc23193 = _0x4d9873[_0x1681('0x51')](_0x4d9873[_0x1681('0x51')](_0x24bc24, _0x37348b), _0x4d9873[_0x1681('0x52')](parseInt, document.activityId));
                     continue;
                 case '11':
                     var _0xd36323 = _0x4d9873[_0x1681('0x53')](abcd4, _0x307a46, _0x4d9873[_0x1681('0x54')]);
@@ -458,7 +474,8 @@ $(function() {
                     continue;
                 case '13':
                     jqParam = _0x4d9873[_0x1681('0x3c')](abcd3, _0xc23193, _0xd36323);
-                    continue;
+                    return jqParam;
+                    // continue;
                 case '14':
                     var _0x307a46 = _0x4d9873[_0x1681('0x58')](_0x37348b, '')[_0x1681('0x3')]('');
                     continue;
@@ -466,7 +483,9 @@ $(function() {
                 break;
             }
         }
+        
     }
     //_0x4d9873[_0x1681('0x59')]($, document)[_0x1681('0x5a')](_0x4d9873[_0x1681('0x48')], _0x156205);
     // $(document).bind("mousemove",_0x156205);
-});
+};
+load()
