@@ -16,8 +16,7 @@
       {
           "matches": [
             "https://ks.wjx.top/*",
-            "https://ks.wjx.cn/*",
-            "https://ks.wjx.*/*"
+            "https://ks.wjx.cn/*"
           ],
           "js": ["libs/jquery-3.6.0.min.js","content-scripts/content.js"]
       }
